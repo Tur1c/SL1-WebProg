@@ -85,7 +85,7 @@
             background-color: #adf59f;
             border-radius: 3px;
             border: 1px solid #000;
-            box-shadow: 0px 3px 8px #888;
+            box-shadow: rgb(88, 88, 88) 0px 1px 2px;
             padding:2px 10px 2px 10px;
             cursor:pointer;
         }
