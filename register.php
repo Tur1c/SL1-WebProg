@@ -84,6 +84,7 @@
         input[type=submit] {
             background-color: #adf59f;
             border-radius: 3px;
+            border: 1px solid #000;
             box-shadow: 0px 3px 8px #888;
             padding:2px 10px 2px 10px;
             cursor:pointer;
@@ -173,7 +174,8 @@
                     <?= isset($_SESSION['error']) ? $_SESSION['error'] : '';?>
                 </div>
                 <div class="register-buttonpage">
-                    <button class="kembali-register" onclick="window.history.go(-1)">Kembali</button>
+                    <a href="welcome.php" class="kembali-register">Kembali</a>
+                    <!-- <button class="kembali-register" onclick="window.history.go(-1)">Kembali</button> -->
                     <input type="submit" value="Register" name="register">
                 </div>
             </form>
